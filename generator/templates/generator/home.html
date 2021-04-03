@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>pass gen</title>
+  </head>
+  <body>
+    <h2>fuck you baby</h2>
+    <h1>{{ password }}</h1>
+    <form class="" action="{% url "password" %}">
+      <select class="" name="length">
+        <option value="6">val 6</option>
+          <option value="7">val 7</option>
+          <option value="8">val 8</option>
+          <option value="9" selected="selected" >val 9</option>
+          <option value="10">val 10</option>
+      </select>
+      <input type="submit" name="" value="Generate Password">
+      <br>
+      Uppercase:
+      <input type="checkbox" name="Uppercase">
+      <br>
+      Numbers:
+      <input type="checkbox" name="Numbers">
+      <br>
+      Special:
+      <input type="checkbox" name="Special">
+      <br>
+    </form>
+    <h1>
+      <a href="{% url 'aboutme' %}">are</a>
+    </h1>
+  </body>
+</html>
